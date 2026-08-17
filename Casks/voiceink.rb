@@ -1,6 +1,6 @@
 cask "voiceink" do
-  version "2.2.41"
-  sha256 "e363a901cf5a05881bdda3c3ea1c4fc10b45e2123e55050349b65c717e697500"
+  version "2.2.42"
+  sha256 "bd9944ff0ed7aed62c568b01d8b52613325a4bed6d522741c1f94ed77ac4f514"
 
   url "https://github.com/bifrost-proxy/VoiceInk/releases/download/v#{version}/VoiceInk.zip"
   name "VoiceInk"
