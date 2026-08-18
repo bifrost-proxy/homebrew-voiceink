@@ -1,8 +1,11 @@
 cask "voiceink" do
-  version "2.2.43"
-  sha256 "fbb32c00b7ea6869839c8577341057cd4a033879565c141e737618903bc5beb2"
+  arch arm: "arm64", intel: "x86_64"
 
-  url "https://github.com/bifrost-proxy/VoiceInk/releases/download/v#{version}/VoiceInk.zip"
+  version "2.2.44"
+  sha256 arm:   "3f4e92badd168f35ca542952cd105105909185def7cb3d6aad7b9d76c614aa9c",
+         intel: "36bd27faa240e40be19cdfae6e46a9eea49f1552f157c8cd7395b5b52aba54ce"
+
+  url "https://github.com/bifrost-proxy/VoiceInk/releases/download/v#{version}/VoiceInk-#{arch}.zip"
   name "VoiceInk"
   desc "Privacy-focused voice-to-text app"
   homepage "https://github.com/bifrost-proxy/VoiceInk"
