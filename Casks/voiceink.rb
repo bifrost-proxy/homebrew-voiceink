@@ -1,9 +1,9 @@
 cask "voiceink" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.2.73"
-  sha256 arm:   "425ce77f04d546f71ca7ff1a2c26171572b3f6d31f6c5d4dc4d1f011389cc4d8",
-         intel: "ddae4ebf7089ab8460e63e06509733d2d0b43acb0b18b2007913103bf49a664f"
+  version "2.2.74"
+  sha256 arm:   "9fc10e48279bdbc58d08c63e107177f85920a1a56e3e09fa3d2df588bc0eecb9",
+         intel: "a5328590f33b85eb9d9547fdc65abf6a628022ca9d5b01bb721a74b08a91d12b"
 
   url "https://github.com/bifrost-proxy/VoiceInk/releases/download/v#{version}/VoiceInk-#{arch}.zip"
   name "VoiceInk"
